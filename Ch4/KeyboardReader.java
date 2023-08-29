@@ -8,4 +8,8 @@ public class KeyboardReader()
     {
         reader = new BuffereReader(new InputStreamReader(System.in));
     }
+    public String getKeyboardInput()
+    {
+        return readKeyboard();
+    }
 }
