@@ -12,4 +12,8 @@ public class KeyboardReader()
     {
         return readKeyboard();
     }
+    public int getKeyboardInteger()
+    {
+	    return Integer.parseInt(readKeyboard);
+    }
 }
